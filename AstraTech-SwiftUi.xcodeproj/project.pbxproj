@@ -10,9 +10,22 @@
 		523E81822DDF47E200BA5F3F /* AstraTech-SwiftUi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AstraTech-SwiftUi.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		523E83942DDF580A00BA5F3F /* Exceptions for "AstraTech-SwiftUi" folder in "AstraTech-SwiftUi" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 523E81812DDF47E200BA5F3F /* AstraTech-SwiftUi */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		523E81842DDF47E200BA5F3F /* AstraTech-SwiftUi */ = {
+		523E83902DDF580900BA5F3F /* AstraTech-SwiftUi */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				523E83942DDF580A00BA5F3F /* Exceptions for "AstraTech-SwiftUi" folder in "AstraTech-SwiftUi" target */,
+			);
 			path = "AstraTech-SwiftUi";
 			sourceTree = "<group>";
 		};
@@ -32,7 +45,7 @@
 		523E81792DDF47E200BA5F3F = {
 			isa = PBXGroup;
 			children = (
-				523E81842DDF47E200BA5F3F /* AstraTech-SwiftUi */,
+				523E83902DDF580900BA5F3F /* AstraTech-SwiftUi */,
 				523E81832DDF47E200BA5F3F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -61,7 +74,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				523E81842DDF47E200BA5F3F /* AstraTech-SwiftUi */,
+				523E83902DDF580900BA5F3F /* AstraTech-SwiftUi */,
 			);
 			name = "AstraTech-SwiftUi";
 			packageProductDependencies = (
@@ -256,11 +269,13 @@
 				DEVELOPMENT_TEAM = WK5AM876Y2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "AstraTech-SwiftUi/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -284,11 +299,13 @@
 				DEVELOPMENT_TEAM = WK5AM876Y2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "AstraTech-SwiftUi/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

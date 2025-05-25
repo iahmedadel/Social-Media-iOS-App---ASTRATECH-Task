@@ -9,9 +9,23 @@ import SwiftUI
 
 @main
 struct AstraTech_SwiftUiApp: App {
+    init(){
+        UINavigationBar.appearance().tintColor = .white
+
+    }
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeView()
+                .preferredColorScheme(.dark)
+                .onAppear {
+                    UINavigationBar.appearance().largeTitleTextAttributes = [
+                        .foregroundColor: UIColor.white
+                    ]
+                    UINavigationBar.appearance().titleTextAttributes = [
+                        .foregroundColor: UIColor.white
+                    ]
+                }
         }
     }
 }
