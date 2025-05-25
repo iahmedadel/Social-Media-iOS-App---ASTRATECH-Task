@@ -27,13 +27,6 @@ struct PostsListView: View {
         }
         .listStyle(.plain)
         .scrollContentBackground(.hidden)
-//        .background(
-//            LinearGradient(
-//                gradient: Gradient(colors: [Color.blue.opacity(0.1), Color.purple.opacity(0.1)]),
-//                startPoint: .topLeading,
-//                endPoint: .bottomTrailing
-//            )
-//        )
     }
 }
 
